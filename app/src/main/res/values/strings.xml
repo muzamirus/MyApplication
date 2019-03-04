@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PARTY APP</string>
+    <string name="hello_keith">Hello Keith!</string>
+    <string name="welcome">welcome to the Party Plot!</string>
+    <string name="add">login</string>
+</resources>
