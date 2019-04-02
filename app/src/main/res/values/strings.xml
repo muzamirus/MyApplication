@@ -3,4 +3,12 @@
     <string name="hello_keith">Hello Keith!</string>
     <string name="welcome">welcome to the Party Plot!</string>
     <string name="add">login</string>
+    <string name="accountcreate">Please Create an Account</string>
+    <string name="title_activity_tab">Tab</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="home">Home</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
 </resources>

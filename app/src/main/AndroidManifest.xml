@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".About">
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/home"
+            android:allowTaskReparenting="true"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".About"
+            android:label="Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,11 +24,12 @@
         </activity>
         <activity
             android:name=".Account"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".MainActivity"
-            android:parentActivityName=".About">>
-
-        </activity>
+            android:label="Sign up"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".About"
+            android:label="Login"/>
     </application>
 
 </manifest>

@@ -19,13 +19,13 @@ public class Account extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater=getMenuInflater();
-        inflater.inflate(R.menu.menu,menu);
-        return super.onCreateOptionsMenu(menu);
+       // MenuInflater inflater=getMenuInflater();
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
     }
     public boolean onOptionsItemSelected(MenuItem item){
-        switch (item.getItemId()){
-            case R.id.homepage:
+        switch (item.getItemId()){//get all the menu item IDs and store them
+            case R.id.homepage: // check in all the IDs and get this ID
                 Intent object= new Intent(this,About.class);
             startActivity(object);
             break;
@@ -34,6 +34,5 @@ public class Account extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
 
 }

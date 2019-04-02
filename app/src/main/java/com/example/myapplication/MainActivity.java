@@ -7,9 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
-Button btncreate;
+Button btncreate, login;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,14 @@ Button btncreate;
                 startActivity(obj);
             }
         });
+        login=(Button) findViewById(R.id.login);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent obj= new Intent(MainActivity.this,Main2Activity.class);
+                startActivity(obj);
+            }
+        });
     }
-
 }
+
