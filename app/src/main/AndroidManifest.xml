@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Testfrag"
+            android:label="categories and Description">
+
+        </activity>
         <activity
-            android:name=".Main2Activity"
-            android:label="@string/home"
-            android:allowTaskReparenting="true"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".About"
+            android:name=".About"
             android:label="Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,8 +28,8 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:parentActivityName=".About"
-            android:label="Login"/>
+            android:label="Login"
+            android:parentActivityName=".About" />
     </application>
 
 </manifest>

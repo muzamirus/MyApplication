@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/homepage"
-        android:title="Home"
-        app:showAsAction="never"
-        />
+    android:title="Home"
+    app:showAsAction="never"
+    />
 <item
     android:id="@+id/about"
     android:title="About Us"
